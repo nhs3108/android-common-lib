@@ -1,6 +1,51 @@
-# Android-common-lib
+# Android Common Lib
+
+[![](https://jitpack.io/v/framgia/android-common-lib.svg)](https://jitpack.io/#framgia/android-common-lib)
+
 Framgia android common lib
 
+Download
+-------
+#####Gradle:
+
+Step 1. Add it in your root build.gradle at the end of repositories:
+
+```
+allprojects {
+	repositories {
+		...
+		maven { url "https://jitpack.io" }
+	}
+}
+```
+
+Step 2. Add the dependency
+```
+dependencies {
+	    compile 'com.github.framgia:android-common-lib:-SNAPSHOT'
+}
+```
+
+#####Maven:
+
+Step 1. Add the JitPack repository to your build file
+```
+<repositories>
+	<repository>
+		<id>jitpack.io</id>
+		<url>https://jitpack.io</url>
+	</repository>
+</repositories>
+```
+
+Step 2. Add the dependency
+```
+<dependency>
+	<groupId>com.github.framgia</groupId>
+	<artifactId>android-emulator-detector</artifactId>
+	<version>-SNAPSHOT</version>
+</dependency>
+```
 
 License
 -------
